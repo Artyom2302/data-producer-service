@@ -1,0 +1,10 @@
+kafka:
+  url:
+    - localhost:9092
+  topic: raw-packages
+scheduler:
+  schedule-interval: 2s
+  send-interval: 5s
+  iteration-timeout: 10s
+  random-number-count: 10
+  send-limit: 100

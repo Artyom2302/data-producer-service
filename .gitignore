@@ -1,0 +1,15 @@
+# IDE
+.idea/
+
+# no-vibe: learning workspace and cloned reference repositories
+.no-vibe/
+
+# Build and test output
+/bin/
+*.exe
+*.test
+*.out
+
+# Personal env overrides. The shared .env with local dev values stays tracked.
+.env.*
+!.env.example
